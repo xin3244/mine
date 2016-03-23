@@ -271,6 +271,7 @@ def main():
             verbose = 1
         else:
             argv.append(_argv[i])
+
     try:
         opts, args = getopt.getopt(
                 argv,
